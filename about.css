@@ -1,0 +1,134 @@
+body {
+    font-family: "Acme", sans-serif;
+    background-color: #121212; 
+    color: #e0e0e0; 
+    margin: 0;
+    padding: 0;
+  }
+  
+/* Navbar */
+.navbar {
+    background-color: #000000; 
+    padding: 0.8em 1.5em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.75em;
+    color: #f39c12; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Acme", sans-serif;
+  
+  }
+  
+  .navbar-brand:hover {
+    color: #e67e22; 
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000000 !important; 
+    font-weight: 500;
+    margin-right: 1em;
+    transition: color 0.3s, border-bottom 0.3s;
+    font-family: "Acme", sans-serif;
+  
+  }
+  
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link:hover {
+    color: #f39c12 !important; /* Vibrant Yellow */
+    border-bottom: 2px solid #f39c12; /* Vibrant Yellow */
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #f39c12; /* Vibrant Yellow */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-link {
+      margin-right: 0;
+      padding: 0.5em 0;
+    }
+  }  
+  /* Parallax Section */
+  .parallax {
+    background-image: url('./newspaper.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .parallax-inner {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2em;
+    border-radius: 10px;
+  }
+  
+  .parallax h1 {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  
+  /* About Us Content */
+  .about-us {
+    padding: 4em 0;
+  }
+  
+  .about-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #f39c12;
+  }
+  
+  .about-us p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+  }
+  
+  .icon-container {
+    background-color: #1f1f1f;
+    color: #f39c12;
+    font-size: 3em;
+    padding: 1em;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 1em;
+    transition: transform 0.3s;
+  }
+  
+  .icon-container:hover {
+    transform: scale(1.1);
+  }
+  
+  .about-us h3 {
+    color: #f39c12;
+    margin-top: 1em;
+  }
+  
+  .about-us p {
+    color: #e0e0e0;
+  }
+  
+  footer {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    padding: 1.5em 0;
+  }
+  
